@@ -1,0 +1,29 @@
+/* Styling the container for the music player */
+.player-container {
+    text-align: center;
+    border: 3px solid black; /* The border you wanted! */
+    padding: 30px;           /* Breathing room inside */
+    margin: 50px auto;       /* Centers the box on the page */
+    width: 300px;            /* Keeps the box from getting too wide */
+    background-color: #f9f9f9;
+    border-radius: 15px;     /* Optional: rounds the corners slightly */
+}
+
+/* Styling the navigation menu */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Making the audio player fill the width of the box */
+audio {
+    width: 100%;
+    margin-top: 15px;
+}
